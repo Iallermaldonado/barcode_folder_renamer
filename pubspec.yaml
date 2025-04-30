@@ -1,0 +1,22 @@
+
+name: barcode_folder_renamer
+description: App para escanear código de barras e renomear pastas
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  barcode_scan2: ^4.2.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
